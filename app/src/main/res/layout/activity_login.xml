@@ -59,11 +59,14 @@
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
-        android:background="#77ffffff"
+        android:background="@drawable/white_back"
+        android:padding="10dp"
         android:textColorHint="#000"
         >
+
         <android.support.design.widget.TextInputEditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
@@ -79,10 +82,13 @@
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:background="#77ffffff"
-        android:textColorHint="#000"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="100dp"
-        android:layout_height="wrap_content">
+        android:background="@drawable/white_back"
+        android:padding="10dp"
+        android:textColorHint="#000">
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/etPassword"
